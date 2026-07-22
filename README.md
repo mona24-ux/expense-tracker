@@ -19,3 +19,17 @@ A complete mobile application to record, categorize, and track daily expenses wi
 - `/services`: Database storage handling
 - `/screens`: Home Dashboard & Add Expense screens
 - `/widgets`: Expense Card UI component
+- 
+
+https://github.com/user-attachments/assets/24fe8ed7-aeb2-4753-bef9-6afeaf65c356
+
+
+
+https://github.com/user-attachments/assets/b192157c-83d1-43da-9a8c-68ccc4484aae
+
+
+
+
+
+
+
