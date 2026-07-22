@@ -1,16 +1,21 @@
-# expense_tracker
+# Expense Tracker App (Flutter & Dart)
 
-A new Flutter project.
+A complete mobile application to record, categorize, and track daily expenses with local data persistence.
 
-## Getting Started
+## 🚀 Features
+- **Add Expense Screen**: Input fields for amount, title, date picker, and category selection.
+- **Home / Dashboard**: List of expenses (newest first) with dynamic total spending summary card.
+- **Delete Expense**: Instant deletion of expense entries.
+- **Input Validation**: Prevents empty titles or invalid/negative amounts from being saved.
+- **Local Persistence**: Data survives app restarts using `SharedPreferences`.
+- **Empty State**: Friendly UI shown when no expenses exist.
 
-This project is a starting point for a Flutter application.
+## 🛠️ Packages Used
+- `shared_preferences`: For local device storage.
+- `intl`: For date formatting.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📁 Folder Structure
+- `/models`: Expense data model
+- `/services`: Database storage handling
+- `/screens`: Home Dashboard & Add Expense screens
+- `/widgets`: Expense Card UI component
